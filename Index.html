@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>instagram clone</title>    
+ 
+    <link rel="stylesheet" href="ind.css">
+</head>
+<body>
+    <script src="js.js"></script>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="ins.png" alt=""></a>
+        </div>
+        <div class="search">
+            <i class="fas fa-search"></i>
+            <input type="search" placeholder="search">           
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-house"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-messenger"></i></a></li>
+                <li><a href="#"><i class="far fa-plus-square"></i></a></li>
+                <li><a href="#"><i class="far fa-compass"></i></a></li>
+                <li><a href="#"><i class="far fa-heart"></i></a></li>
+                <li><a href="profile.html"><img src="2.png" alt="profile"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="post">
+            <div class="story">
+                <div class="status">
+                    <a href="rekha aka.mp4"><img src="2.png"width="60" height="60" alt="image"></a>
+                    <p>2k Beatz</p>
+                </div>      
+                </div>
+            <div class="posts"> 
+                <div class="post-title">
+                    <div class="left">
+                        <div class="image">
+                           <img src="2.png" alt="22" width="32" height="32">
+                        </div>
+                            <div class="name">
+                                <p>2kbeatz</p>
+                            </div>    
+                    </div>
+                    <div class="right">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>        
+                </div>
+                <div class="post-img">
+                    <video src="rekha aka.mp4" controls height="600" width="600"></video>
+                </div>
+                <div class="post-footer">
+                    <div class="like-share">
+                        <button ondblclick="Toggle1()" id="btn1" class="btn"><i class="fas fa-heart"></i></button>
+                        <i class="far fa-comment"></i>
+                        <i class="far fa-paper-plane"></i>
+                    </div>
+                    <div class="save">
+                        <button onclick="Tog1()" id="s1" class="bs"><i class="fas fa-bookmark"></i></button>
+                    </div>
+                </div>
+
+                <div class="post-footer-content">
+                    <p class="like">12k Likes</p>
+                    <img src="" alt="">
+                    <p class="name">2kbeatz <span>please Follow</span></p>
+                    <p class="comments">view all 12comments</p>
+                    <p class="post-time">1 HOUR AGO</p>
+                </div>
+                <div class="add-comment">
+                    <div class="ls">
+                        <i class="far fa-smile-beam"></i>
+                        <input type="text" placeholder="Add a comment...">
+                    </div>
+                    <div class="rs">
+                        <p>Post </p>
+                    </div>
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post-title">
+                    <div class="left">
+                        <div class="image">
+                            <img src="2.png" alt="22" width="32" height="32">
+                        </div>
+                            <div class="name">
+                                <p>2kbeatz</p>
+                            </div>    
+                    </div>
+                    <div class="right">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>        
+                </div>
+                <div class="post-img">
+                    <img src="4.jpg" height="600" width="520"></img>
+                </div>
+                <div class="post-footer">
+                    <div class="like-share">
+                        <button ondblclick="Toggle2()" id="btn2" class="btn"><i class="fas fa-heart"></i></button>
+                        <i class="far fa-comment"></i>
+                        <i class="far fa-paper-plane"></i>
+                    </div>
+                    <div class="save">
+                        <button onclick="Tog2()" id="s2" class="bs"><i class="fas fa-bookmark"></i></button>
+                    </div>
+                </div>
+
+                <div class="post-footer-content">
+                    <p class="like">1k Likes</p>
+                    <img src="" alt="">
+                    <p class="name">2kbeatz <span>please Follow</span></p>
+                    <p class="comments">view all 12comments</p>
+                    <p class="post-time">1 HOUR AGO</p>
+                </div>
+                <div class="add-comment">
+                    <div class="ls">
+                        <i class="far fa-smile-beam"></i>
+                        <input type="text" placeholder="Add a comment...">
+                    </div>
+                    <div class="rs">
+                        <p>Post</p>
+                    </div>
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post-title">
+                    <div class="left">
+                        <div class="image">
+                            <img src="2.png" alt="22" width="32" height="32">
+                        </div>
+                            <div class="name">
+                                <p>2kbeatz</p>
+                            </div>    
+                    </div>
+                    <div class="right">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>        
+                </div>
+                <div class="post-img">
+                    <img src="2.2.jpg" height="600" width="520">
+                </div>
+                <div class="post-footer">
+                    <div class="like-share">
+                        <button ondblclick="Toggle3()" id="btn3" class="btn"><i class="fas fa-heart"></i></button> 
+                        <i class="far fa-comment"></i>
+                        <i class="far fa-paper-plane"></i>
+                    </div>
+                    <div class="save">
+                        <button onclick="Tog3()" id="s3" class="bs"><i class="fas fa-bookmark"></i></button>
+                    </div>
+                </div>
+
+                <div class="post-footer-content">
+                    <p class="like">2k Likes</p>
+                    <img src="" alt="">
+                    <p class="name">2kbeatz <span>please Follow</span></p>
+                    <p class="comments">view all 12comments</p>
+                    <p class="post-time">1 HOUR AGO</p>
+                </div>
+                <div class="add-comment">
+                    <div class="ls">
+                        <i class="far fa-smile-beam"></i>
+                        <input type="text" placeholder="Add a comment...">
+                    </div>
+                    <div class="rs">
+                        <p>Post</p>
+                    </div>
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post-title">
+                    <div class="left">
+                        <div class="image">
+                            <img  src="2.png" alt="22" width="32" height="32">
+                        </div>
+                            <div class="name">
+                                <p>2kbeatz</p>
+                            </div>    
+                    </div>
+                    <div class="right">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>        
+                </div>
+                <div class="post-img">
+                    <img src="1.2.jpg" height="600" width="600">
+                </div>
+                <div class="post-footer">
+                    <div class="like-share">
+                        <button ondblclick="Toggle4()" id="btn4" class="btn"><i class="fas fa-heart"></i></button> 
+                        <i class="far fa-comment"></i>
+                        <i class="far fa-paper-plane"></i>
+                    </div>
+                    <div class="save">
+                        <button onclick="Tog4()" id="s4" class="bs"><i class="fas fa-bookmark"></i></button>
+                    </div>
+                </div>
+
+                <div class="post-footer-content">
+                    <p class="like">5k Likes</p>
+                    <img src="" alt="">
+                    <p class="name">2kbeatz <span>please Follow</span></p>
+                    <p class="comments">view all 12comments</p>
+                    <p class="post-time">1 HOUR AGO</p>
+                </div>
+                <div class="add-comment">
+                    <div class="ls">
+                        <i class="far fa-smile-beam"></i>
+                        <input type="text" placeholder="Add a comment...">
+                    </div>
+                    <div class="rs">
+                        <p>Post</p>
+                    </div>
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post-title">
+                    <div class="left">
+                        <div class="image">
+                            <img  src="2.png" alt="22" width="32" height="32">
+                        </div>
+                            <div class="name">
+                                <p>2kbeatz</p>
+                            </div>    
+                    </div>
+                    <div class="right">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>        
+                </div>
+                <div class="post-img">
+                    <img src="Aka1.jpg" height="600" width="600">
+                </div>
+                <div class="post-footer">
+                    <div class="like-share">
+                        <button ondblclick="Toggle4()" id="btn4" class="btn"><i class="fas fa-heart"></i></button> 
+                        <i class="far fa-comment"></i>
+                        <i class="far fa-paper-plane"></i>
+                    </div>
+                    <div class="save">
+                        <button onclick="Tog4()" id="s4" class="bs"><i class="fas fa-bookmark"></i></button>
+                    </div>
+                </div>
+
+                <div class="post-footer-content">
+                    <p class="like">5k Likes</p>
+                    <img src="" alt="">
+                    <p class="name">2kbeatz <span>please Follow</span></p>
+                    <p class="comments">view all 12comments</p>
+                    <p class="post-time">1 HOUR AGO</p>
+                </div>
+                <div class="add-comment">
+                    <div class="ls">
+                        <i class="far fa-smile-beam"></i>
+                        <input type="text" placeholder="Add a comment...">
+                    </div>
+                    <div class="rs">
+                        <p>Post</p>
+                    </div>
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post-title">
+                    <div class="left">
+                        <div class="image">
+                            <img  src="2.png" alt="22" width="32" height="32">
+                        </div>
+                            <div class="name">
+                                <p>2kbeatz</p>
+                            </div>    
+                    </div>
+                    <div class="right">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>        
+                </div>
+                <div class="post-img">
+                    <img src="akka1.jpg" height="600" width="600">
+                </div>
+                <div class="post-footer">
+                    <div class="like-share">
+                        <button ondblclick="Toggle4()" id="btn4" class="btn"><i class="fas fa-heart"></i></button> 
+                        <i class="far fa-comment"></i>
+                        <i class="far fa-paper-plane"></i>
+                    </div>
+                    <div class="save">
+                        <button onclick="Tog4()" id="s4" class="bs"><i class="fas fa-bookmark"></i></button>
+                    </div>
+                </div>
+
+                <div class="post-footer-content">
+                    <p class="like">5k Likes</p>
+                    <img src="" alt="">
+                    <p class="name">2kbeatz <span>please Follow</span></p>
+                    <p class="comments">view all 12comments</p>
+                    <p class="post-time">1 HOUR AGO</p>
+                </div>
+                <div class="add-comment">
+                    <div class="ls">
+                        <i class="far fa-smile-beam"></i>
+                        <input type="text" placeholder="Add a comment...">
+                    </div>
+                    <div class="rs">
+                        <p>Post</p>
+                    </div>
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post-title">
+                    <div class="left">
+                        <div class="image">
+                            <img  src="2.png" alt="22" width="32" height="32">
+                        </div>
+                            <div class="name">
+                                <p>2kbeatz</p>
+                            </div>    
+                    </div>
+                    <div class="right">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>        
+                </div>
+                <div class="post-img">
+                    <img src="Gokul Raj Mama 20210730_091149.jpg" height="600" width="600">
+                </div>
+                <div class="post-footer">
+                    <div class="like-share">
+                        <button ondblclick="Toggle4()" id="btn4" class="btn"><i class="fas fa-heart"></i></button> 
+                        <i class="far fa-comment"></i>
+                        <i class="far fa-paper-plane"></i>
+                    </div>
+                    <div class="save">
+                        <button onclick="Tog4()" id="s4" class="bs"><i class="fas fa-bookmark"></i></button>
+                    </div>
+                </div>
+
+                <div class="post-footer-content">
+                    <p class="like">5k Likes</p>
+                    <img src="" alt="">
+                    <p class="name">2kbeatz <span>please Follow</span></p>
+                    <p class="comments">view all 12comments</p>
+                    <p class="post-time">1 HOUR AGO</p>
+                </div>
+                <div class="add-comment">
+                    <div class="ls">
+                        <i class="far fa-smile-beam"></i>
+                        <input type="text" placeholder="Add a comment...">
+                    </div>
+                    <div class="rs">
+                        <p>Post</p>
+                    </div>
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post-title">
+                    <div class="left">
+                        <div class="image">
+                            <img  src="2.png" alt="22" width="32" height="32">
+                        </div>
+                            <div class="name">
+                                <p>2kbeatz</p>
+                            </div>    
+                    </div>
+                    <div class="right">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>        
+                </div>
+                <div class="post-img">
+                    <video src="4.jpg"  height="600" width="600">
+                </div>
+                <div class="post-footer">
+                    <div class="like-share">
+                        <button ondblclick="Toggle4()" id="btn4" class="btn"><i class="fas fa-heart"></i></button> 
+                        <i class="far fa-comment"></i>
+                        <i class="far fa-paper-plane"></i>
+                    </div>
+                    <div class="save">
+                        <button onclick="Tog4()" id="s4" class="bs"><i class="fas fa-bookmark"></i></button>
+                    </div>
+                </div>
+
+                <div class="post-footer-content">
+                    <p class="like">5k Likes</p>
+                    <img src="" alt="">
+                    <p class="name">2kbeatz <span>please Follow</span></p>
+                    <p class="comments">view all 12comments</p>
+                    <p class="post-time">1 HOUR AGO</p>
+                </div>
+                <div class="add-comment">
+                    <div class="ls">
+                        <i class="far fa-smile-beam"></i>
+                        <input type="text" placeholder="Add a comment...">
+                    </div>
+                    <div class="rs">
+                        <p>Post</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="msg">
+            <div class="profile">
+                <div class="pls">
+                    <div class="image">
+                        <a href="profile.html"><img src="2.png" alt="" width="56" height="56"></a>
+                    </div>
+                    <div class="name">
+                        <a href="profile.html"><p>2kbeatz</p></a>
+                        <p font-size="50px">2k-Beatz</p>
+                    </div>
+                </div>
+                <div class="prs">
+                    <a href="ins.html"><p>Swicth</p></a>
+                </div>
+            </div>
+           <div class="sug">
+            <p>Suggestion for you</p>
+            <p id="b">See All</p>
+           </div>
+           <div class="sug-title">
+            <div class="sug-l">
+                <div class="image">
+                    <img src="IMG_20210923_135838.png" alt="sezer" width="32" height="32">
+                </div>
+                <div class="d">
+                    <p class="name">2k-Beatz</p>
+                </div>
+            </div>
+            <div class="sug-r">
+                <p><a href="ins.html" target="_blank">Follow</a></p>
+            </div>
+           </div> 
+           <div class="sug-title">
+            <div class="sug-l">
+                <div class="image">
+                    <img src="1.png" alt="sezer" width="32" height="32">
+                </div>
+                <div class="d">
+                    <p class="name">2k-Beatz</p>
+                </div>
+            </div>
+            <div class="sug-r">
+                <p><a href="ins.html" target="_blank">Follow</a></p>
+            </div>
+           </div> 
+           <div class="sug-title">
+            <div class="sug-l">
+                <div class="image">
+                    <img src="IMG_20210923_135838.png" alt="sezer" width="32" height="32">
+                </div>
+                <div class="d">
+                    <p class="name">2k-Beatz</p>
+                </div>
+            </div>
+            <div class="sug-r">
+                <p><a href="ins.html" target="_blank">Follow</a></p>
+            </div>
+           </div> 
+        </div>
+    </section>
+<footer>
+    <p>&copy; 2023 Sivakumar. All rights reserved.</p>
+    <a href="https://wa.me/+919150203344">Contact</a>
+</footer>
+</body>
+</html>
