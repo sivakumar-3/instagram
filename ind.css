@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+/*header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 18%;
+    border-radius:1px solid rgba(219,219,219,1);
+    background-color: white;
+    position:sticky;
+    TOP:0;
+  
+}
+header.logo{
+    height: 29px;
+}
+header .logo img{
+    height: 100%;
+    object-fit: contain;
+}
+header .search{
+    width: 250px;
+    background-color:rgba(219,219,219,1);
+    padding: 3px 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+header .search input{
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color:rgba(219,219,219,1);
+    padding-left: 10px;
+    font-size: 15px;
+    color: #8e8e8e;
+}
+header nav ul{
+    list-style: none;
+    display:flex;
+}
+header nav ul li{
+    margin-right: 20px;
+    margin-left:0PX;
+}
+header nav ul li :last-child{
+    margin-right: 0;
+}
+header nav ul li a i{
+    font-size: 22px;
+    color:rgba(38,38,38,1);
+}
+header nav ul li a img{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+section{
+    padding: 30px 18%;
+    display:flex;    
+    background-color: #fafafa;
+}
+.post{
+    width: 65%
+}
+.story{
+    display: flex;
+    padding: 16px;
+    margin-top: 39px;
+    background-color: white;
+    border: 1px solid rgba(219,219,219,1);
+
+}
+.story .status{
+    width: 17%;
+}
+.story .status a img{
+    border-radius: 50%;
+    border: 2px solid #c62d8f;
+    padding: 1px;
+    object-fit: cover;
+}
+.story .status p{
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #262626;
+}
+
+.posts{
+    margin: 25px 0;
+    background-color: white;
+    border: 1px solid rgba(219,219,219,1);
+    border-radius: 3px;
+}
+.posts .post-title{
+display: flex;
+padding: 16px;
+justify-content: space-between;
+align-items: center;
+}
+.posts .post-title .left{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+.posts .post-title .left .image{
+    margin-right: 15px;
+}
+.posts .post-title .left .image img{
+    border-radius: 50%;
+    object-fit: contain;
+}
+.posts .post-title .left .image video{
+    border-radius: 50%;
+    object-fit: contain;
+}
+.posts .post-title .left .name p{
+    padding-bottom: 2px;
+    font-weight: bold;
+    font-size: 90%;
+}
+.posts .post-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.posts .post-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.posts .post-footer .like-share i{
+    font-size: 22px;
+    margin-right: 10px;
+}
+.posts .post-footer .save i{
+    font-size: 22px;
+}
+.posts .post-footer-content{
+    padding: 0 16px 16px 16px;
+}
+.posts .post-footer-content p{
+   margin-bottom: 3px;
+}
+.posts .post-footer-content .like{
+    margin-bottom: 8px;
+}
+.posts .post-footer-content .name{
+    font-weight: bold;
+}
+.posts .post-footer-content span{
+    margin-left: 10px;
+    font-weight: normal;
+}
+.posts .post-footer-content .post-time{
+    font-size:10px;
+    margin-top: 6px;
+}
+
+.posts .add-comment{
+    padding: 16px;
+    border: 1px solid #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.posts .add-comment .ls{
+    display:flex;
+    align-items: center;
+}
+.posts .add-comment .ls i{
+    font-size: 22px;
+    margin-right: 15px;
+}
+.posts .add-comment .ls input{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+
+.msg{
+    width: 35%;
+    margin-top:39px;
+    position: fixed;
+    right:0px;
+}
+.msg .profile{
+    display: flex;
+    align-items: center;
+
+}
+.name a{
+   text-decoration:none; 
+   color: black;
+}
+.prs a{
+    text-decoration:none; 
+    color: black;
+}
+
+a:visited{
+    color: black;
+    text-decoration:none;
+}
+.msg .profile .pls{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+.msg .profile .pls .image img{
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.msg .profile .pls .name p{
+    padding-bottom: 3px;
+}
+
+.sug{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.sug p{   
+    margin-right: 110px;
+}
+.sug p :last-child{    
+    margin-right: 0px;
+}
+.sug-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px
+}
+.sug-title .sug-l{
+    display: flex;
+    align-items: center;
+    margin-right: 130px;
+}
+
+.sug-title .sug-l .image img{
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.prs p{
+    color : blue;
+}
+.bs{
+    border: none;
+    background: transparent;
+    color: gray;
+}
+.sug-r p a{
+    color:blue;
+    text-decoration: none;
+}
+.sug-r p a:visited{
+    color: blue;
+}
+.btn{
+    border: none;
+    background: transparent;
+    color: gray;
+    
+}
+footer{
+    text-align: center;
+    padding:2%;
+}
+footer.a{
+    text-decoration: none;
+}
+
+.btn i:hover{
+    cursor: pointer;
+}
+
+@media (max-width:992px){
+    header{
+        padding: 10px 20px;        
+    }
+    section .post{
+        width: 100%;
+    }
+    section .msg{
+        visibility: hidden;
+    }
+}
+
+@media (max-width:765px){
+    header .search{
+        visibility: hidden;
+    }
+    header nav ul li{
+        margin-right:4px;
+    }
+    section .post{
+        width:100%;
+        height:100%;
+        
+    }
+}
+
+@media (max-width:595px){
+    .story .status{
+        width: 25%;
+    }
+    header nav ul{
+        margin-right:10px;
+        margin-left: -9px;
+    }
+}
+@media (max-width:393px){
+    .story .status{
+        width: 25%;
+    }
+    header .logo img{
+        height: 25px;
+    }
+    header nav ul li i img{
+        margin-right:0px;
+        margin-left:0px;
+        padding-right:30px;
+    }
+    header nav ul li a i{
+        font-size: 20px;
+        margin-right:0px;
+    }
+
+}
+
+@media (max-width:355px){
+    .story .status{
+        width: 20%;
+    }
+    header .logo img{
+        height: 22px;
+    }
+    header{
+        position: fixed;
+        margin-top:-1px;
+        background-color:white;
+        background:#fafafa;
+    }
+    header nav ul li i{
+        margin-left:0px;
+        margin-right:0px;
+    }
+    header nav ul{
+        margin-left:-129px;
+        margin-right:0px;
+    }
+    header nav ul li a i{
+        font-size: 20px;
+        margin-right:0px;
+    }
+
+}
+@media (max-width:520px){
+    .story .status{
+        width:26%;
+    }
+    .story{
+        padding:3%;
+    }
+    section .post{
+        object-fit: contain;
+        padding:0%;
+    }
+    header .logo img {
+        height: 25px;
+
+    }
+
+    section .posts video{
+        width: 257px;
+    }
+}
+@media (max-width: 415px){
+    header{
+        position: fixed;
+        margin-top:-1px;
+        background-color:white;
+        background:#fafafa;
+    }
+    header nav ul li i{
+        margin-left:0px;
+        margin-right:5px;
+    }
+    header nav ul{
+        margin-left:-129px;
+        margin-right:0px;
+    }
+    header nav ul li a i{
+        font-size: 20px;
+        margin-right:0px;
+    }
+    section{
+        margin-top:35px;
+    }
+}
+
+.rs p{
+    color : blue;
+}
